@@ -1,0 +1,38 @@
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+    .jumbotron {
+        margin-top: 20px;
+    }
+
+    .body-content {
+        padding: 0;
+    }
+}
+
+.per {
+    font-size: 2em;
+}
+
+/* hide input number arrows */
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0;
+    display: none;
+}
+
+#output {
+    border-left: 1px solid rgb(180, 180, 180);
+
+}
+
+.myborder {
+    border: 1px solid rgb(180, 180, 180) !important;
+}
+
+input {
+    font-size: 1.5em !important;
+
+}
